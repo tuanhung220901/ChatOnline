@@ -1,0 +1,13 @@
+.message-content{
+    display: inline-block;
+    background-color: #4b8bf4;
+    padding: 3px 5px;
+    border-radius:  5px;
+    color: white;
+}
+.message-container{
+    margin: 3px 0px;
+}
+.message-container.owned{
+    text-align: right;
+}

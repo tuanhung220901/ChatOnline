@@ -1,0 +1,25 @@
+@import url("./comic-container.css");
+.navbar{
+    display: flex;
+    background-color: #212121;
+    justify-content: space-around;
+    
+}
+.navbar.navbar-item{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+ a {
+    color: white;
+    text-decoration: none;
+}
+body,html{
+    height: 100%;
+}
+.web{
+    height: 100%;
+    display: flex;
+    
+}
