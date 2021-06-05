@@ -7,7 +7,7 @@ $template.innerHTML = `
     <input-wrapper class="name" placeholder = "Your name" type = "text" error=""></input-wrapper>
     <input-wrapper class="email" placeholder = "Your email" type = "email" error=""></input-wrapper>
     <input-wrapper class="password" placeholder = "Your password" type = "password" error=""></input-wrapper>
-    <input-wrapper class="password-cofirmation" placeholder = "Repaet password"  type = "password" error=""></input-wrapper>
+    <input-wrapper class="password-cofirmation" placeholder = "Repeat password"  type = "password" error=""></input-wrapper>
     <button class="register-btn">Enter</button>
 </form>
 `;
