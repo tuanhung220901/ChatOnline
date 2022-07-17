@@ -1,15 +1,16 @@
 import {register} from "../models/user.js";
 const $template = document.createElement('template');
 $template.innerHTML = `
-<form class="register-form">
-    <h2 class = "title">Creat an account</h2>
-    <div class="sub-title">hi em. em đang làm gì vậy :v</div>
-    <input-wrapper class="name" placeholder = "Your name" type = "text" error=""></input-wrapper>
-    <input-wrapper class="email" placeholder = "Your email" type = "email" error=""></input-wrapper>
-    <input-wrapper class="password" placeholder = "Your password" type = "password" error=""></input-wrapper>
-    <input-wrapper class="password-cofirmation" placeholder = "Repeat password"  type = "password" error=""></input-wrapper>
-    <button class="register-btn">Enter</button>
-</form>
+
+    <form class="register-form">
+        <h2 class = "title">Sign up</h2>
+        <input-wrapper class="name" placeholder = "Your name" type = "text" error=""></input-wrapper>
+        <input-wrapper class="email" placeholder = "Your email" type = "email" error=""></input-wrapper>
+        <input-wrapper class="password" placeholder = "Your password" type = "password" error=""></input-wrapper>
+        <input-wrapper class="password-cofirmation" placeholder = "Repeat password"  type = "password" error=""></input-wrapper>
+        <button class="register-btn">Enter</button>
+    </form>
+
 `;
 export default class RegisterForm extends HTMLElement {
     constructor() {

@@ -20,6 +20,10 @@ let fakeMessage = [
     {content: 'cậu ăn cơm chưa', userId: 'id người gửi 1', dataModified: "2021/06/01"},
 
 ]
+// document.querySelector(".send-message-btn"),addEventListener("click",function(){
+//     console.log("hung day");
+//     document.querySelector(".message-content").value = "";
+// })
 export default class ChatScreen extends HTMLElement {
     constructor(){
         super();

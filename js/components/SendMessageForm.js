@@ -23,6 +23,7 @@ export default class SendMessageForm extends HTMLElement{
             // nếu khong khai báo thì web sẽ chuyển trực tiếp đến trang
             event.preventDefault();
             let content = this.$content.value.trim();
+            this.$content.value = "";
             if(content != ""){
                 SendMessage(this.getAttribute('conversation-id'),content);
             }
