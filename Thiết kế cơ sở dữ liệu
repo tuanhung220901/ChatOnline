@@ -1,0 +1,19 @@
+- Thiết kế cơ sở dữ liệu
+    + có những collection nào ?
+    + Mỗi document trong collection có những trường thông tin nào?
+
+
+- Chat online 
+    + users: 
+        # document:
+            id: của ng dùng có trong firebase authentication
+            status: xác định trạng thái người dùng (free,chating,flirting)
+            currentConversationId: id của conversation nào đó -> 
+            .
+            .
+            .
+            .
+    +  conversation:
+        #document:
+            id: do cloud firestore tự tạo
+            user :

@@ -1,0 +1,17 @@
+.title{
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Fredoka One', cursive;
+}
+.login-btn{
+    padding: 10px 30px;
+    border-radius: 3px;
+    background-color: #4a8af4;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+.login-btn:hover{
+    background-color: blue;
+}
